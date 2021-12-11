@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const dataCovidUrl = "https://disease.sh/v3";
-const dataCountryUrl = "https://restcountries.eu/rest/v2";
+const dataCountryUrl = "https://restcountries.com/v2";
 
 export const fetchData = async () => {
   try {
