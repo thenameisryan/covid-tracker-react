@@ -1,7 +1,0 @@
-services:
-  frontend:
-    build:
-      context: .
-    container_name: covidtracker-react
-    ports:
-      - "40443:443"
